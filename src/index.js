@@ -9,6 +9,7 @@ import warning from './utils/warning'
 * This is a dummy function to check if the function name has been altered by minification.
 * If the function has been minified and NODE_ENV !== 'production', warn the user.
 */
+/* Removing temporarily
 function isCrushed() {}
 
 if (
@@ -24,6 +25,7 @@ if (
     'to ensure you have the correct code for your production build.'
   )
 }
+*/
 
 export {
   createStore,
